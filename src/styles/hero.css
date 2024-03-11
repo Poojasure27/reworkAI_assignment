@@ -108,3 +108,17 @@
   
     cursor: pointer;
 }
+
+.hero__content {
+    width: 50%;
+    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.description {
+    width: 100%; /* Set the width to match the container */
+    padding: 0 20px; /* Adjust padding as needed */
+    text-align: center; /* Center-align the text */
+    margin: auto; /* Center the description horizontally */
+}

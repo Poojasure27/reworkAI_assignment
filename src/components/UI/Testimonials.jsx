@@ -65,7 +65,7 @@ const Testimonials = () => {
                 <div className="button">
                 <button>Testimonials</button>
                 </div>
-                <h1>What our users say</h1>
+                <h1 className='heading'>What our users say</h1>
                 
 
                 <div className="testimonial__wrapper">

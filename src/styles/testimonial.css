@@ -52,9 +52,9 @@
     font-weight: 100;
     width: 80%;
   }
-  .testimonial__img img {
-   
-}
-
+ .heading{
+  display: flex;
+  justify-content: center;
+ }
 
   
