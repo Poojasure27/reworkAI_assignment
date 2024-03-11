@@ -1,0 +1,92 @@
+.pricing__section {
+    background-color: #fff;
+  }
+  
+  .container h1 {
+    display: flex;
+   
+    color: #000;
+    
+  }
+  .heading{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .price__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .paragraph {
+    margin-top: 10px;
+    font-size: larger;
+    word-spacing: 5px;
+    line-height: 30px;
+  }
+  
+  .pricing-cards {
+    display: flex;
+    justify-content: space-between; /* Adjust to space-between for cards to be adjacent */
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%; /* Ensure cards take full width of the container */
+  }
+  
+  .pricing-card {
+    width: calc(33.33% - 20px); /* Adjust width to fit 3 cards per row with spacing */
+    margin-bottom: 20px;
+    font-size: 30px;
+   
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  }
+
+  .pricing-cards h2{
+    padding: 20%;
+  }
+
+  .pricing-cards button{
+    padding: 12px;
+    margin :20px  20px;
+    border-radius: 10px;
+  }
+  
+  .features li {
+    list-style: none;
+  }
+  .features li h6{
+    font-weight: 100;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    line-height: 50px;
+  }
+  
+  .pricing-card.free {
+    background-color: #fff;
+  }
+  
+  .pricing-card.premium {
+    background-color: #000;
+    color: #fff; /* Change background color to black */
+  }
+
+  .pricing-card.pricing-card.premium.white-bg{
+    background-color: #fff;
+    color: #000;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .paragraph {
+    margin-bottom: 30px;
+  }
+  

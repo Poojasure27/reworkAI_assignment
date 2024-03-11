@@ -1,0 +1,124 @@
+
+.home__wrapper{
+    column-gap: 1.5rem;
+}
+
+.home__item{
+    background: none;
+    align-items: left;
+    border-radius: 0.5rem;
+    margin-bottom: 30px;
+    color:#000; 
+}
+.home__section {
+    padding: 38px 0;
+    background-color: aliceblue;
+}
+.sponsored{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+      
+        
+    
+}
+
+.sponsored img{
+  
+    width: 100vh;
+    padding: 0%;
+    margin: 0;
+    padding: 0;
+    /* Replace 'your-image.jpg' with the path to your image */
+    background-size: 100% auto; /* Expand the image width to cover the full width and maintain its aspect ratio for height */
+    background-position: top left; /* Position the background image at the top left corner */
+    background-repeat: no-repeat;
+   
+}
+
+.button{
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Align items horizontally to the center */
+ 
+
+}
+.button button{
+   /* Align items vertically to the center */
+ /* Ensure full viewport height */
+    margin: 0;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #fff; /* Button background color */
+    color: #000; /* Button text color */
+    border: solid #000; 
+    border-width: 1px;/* Remove button border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 16px; 
+    align-items: center;
+    margin-top: 10%;
+   
+}
+
+.home__text h1{
+    color: #000;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    line-height: 45px;
+    font-size: 55px;
+}
+
+.home__text p{
+    text-align: center; /* Align text to the center */
+    margin: 0 auto; /* Center horizontally by setting left and right margin to auto */
+    width: 80%;
+    position: relative;
+    top: 50px;
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.home__image img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+
+
+.home__desc {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 20px; 
+    text-align: left;
+  }
+  
+  .home__item {
+    text-align: center; 
+  }
+  
+  .home__icon,
+  .home__title,
+  .home__description,
+  .button {
+    margin-bottom: 20px; 
+    color: #000;
+  }
+  
+  .home__icon i {
+    font-size: 2rem;
+    color: #000;
+    margin-top: 60px;
+  
+  }
+
+  .home__title p{
+    font-weight: 400;
+  }
+
+  .home__description{
+    font-weight: 100;
+  }

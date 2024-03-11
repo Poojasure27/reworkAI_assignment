@@ -1,0 +1,25 @@
+.description{
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+}
+
+.button h4{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.image-two img{
+    position: relative;
+    left: 70%;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
